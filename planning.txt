@@ -1,0 +1,29 @@
+Nouns:
+Game - Class
+Player - class
+Question - Class
+Answer -Class
+Answer Correct message
+Answer Incorrect message
+Life Counter
+Turn
+Wins message
+Game over
+
+Roles:
+Game - Turn, Game message, game over, game loop, Input/Output User
+        - Game loop
+            - Turn ---> Current_player(Class Player)
+            - Class Question
+            - Input User
+            - Class Answer
+            - Class Player(Life counter, lose points, final score)
+
+Player - Life Counter, lose points, final score
+       - 3 lives, 2 players
+
+Question - Question
+         - 2 numbers
+         
+Answer - Correct message, Incorrect message
+         - Calculation
